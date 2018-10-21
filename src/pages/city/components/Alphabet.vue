@@ -34,7 +34,7 @@ export default{
       startY: 0
     }
   },
-  mounted () {
+  updated () {
     this.startY = this.$refs['A'][0].offsetTop
   },
   methods: {
